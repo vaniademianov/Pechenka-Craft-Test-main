@@ -1,0 +1,1 @@
+java -Xmx512m -Dfile.encoding=UTF-8 -jar waterfall-1.18-481.jar

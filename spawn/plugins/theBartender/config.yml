@@ -1,0 +1,169 @@
+version: v1.2
+enablePlugin: true
+prefix: '&f[&6theBartender&f]'
+reloadMessage: '&ayou reloaded the config files successfully!'
+noPermission: '&cYou don''t have permission to do that!'
+noMoney: '&cYou can''t afford {price} for {drink} .'
+notAvailable: '&6This function aren''t available at this time.'
+setSanityMessage: You set {player} {keyword} level to {sanity} {keyword} successfully!
+resetSanityMessage: You reset {player} {keyword} successfully!
+npcCreated: '&aThe bartender {npcname} created successfully!'
+npcRemoved: '&aThe bartender {npcname} removed successfully!'
+playerNotOnline: '&cThis player aren''t online.'
+sanityMessage: 'Your {keyword} level is: {sanity} {keyword}'
+setSanityWrong: '{keyword} level must be number between {range}'
+boughtMessage: You bought {drink} for {price} successfully!
+deathMessageToPlayer: '&cYou died of alcohol overdose'
+deathMessageToAll: '&f{player} &cdied of alcohol overdose'
+currency: $
+menuSlots: '54'
+bartenderSlot: '4'
+exitSlot: '49'
+exitMaterial: IRON_DOOR
+bartenderName: '&6&lBartender'
+bartenderTitle: '&0&lBar''s Menu'
+bartenderExit: '&c&lExit'
+sanityKeyword: '&fSanity'
+durationKeyword: '&7Duration'
+priceKeyword: '&fPrice'
+maxSanity: '100'
+wastedSanity: '30'
+wastedTime: '2'
+deathSanity: '10'
+emptyMaterial:
+  title: '&f '
+  material: GLASS
+  data: '15'
+bar:
+  '0':
+    displayName: Cold Water
+    color: '&3'
+    lore: '&fEffect: &9Regeneration'
+    slot: '10'
+    price: '9.99'
+    sanityReduce: '0'
+    effects:
+      previewColor: aqua
+      type: REGENERATION
+      duration: '1'
+  '1':
+    displayName: Soda
+    color: '&7'
+    lore: '&fEffect: &9Regeneration'
+    slot: '11'
+    price: '9.99'
+    sanityReduce: '1'
+    effects:
+      previewColor: white
+      type: REGENERATION
+      duration: '1'
+  '2':
+    displayName: Monster Energy Drink
+    color: '&9'
+    lore: '&fEffect: &aSpeed'
+    slot: '12'
+    price: '19.99'
+    sanityReduce: '5'
+    effects:
+      previewColor: nruy
+      type: SPEED
+      duration: '1'
+  '3':
+    displayName: Corona Beer
+    color: '&6'
+    lore: '&fEffect: &aSpeed'
+    slot: '14'
+    price: '29.99'
+    sanityReduce: '7'
+    effects:
+      previewColor: olive
+      type: SPEED
+      duration: '1'
+  '4':
+    displayName: Heineken Beer
+    color: '&2'
+    lore: '&fEffect: &aSpeed'
+    slot: '15'
+    price: '33.99'
+    sanityReduce: '14'
+    effects:
+      previewColor: green
+      type: SPEED
+      duration: '2'
+  '5':
+    displayName: Wine
+    color: '&9'
+    lore: '&fEffect: &cInstant Healing'
+    slot: '16'
+    price: '24.99'
+    sanityReduce: '20'
+    effects:
+      previewColor: red
+      type: HEAL
+      duration: '1'
+  '6':
+    displayName: Grey Goose
+    color: '&7'
+    lore: '&fEffect: &2Jumping'
+    slot: '28'
+    price: '35.99'
+    sanityReduce: '40'
+    effects:
+      previewColor: silver
+      type: JUMP
+      duration: '1'
+  '7':
+    displayName: Rum
+    color: '&6'
+    lore: '&fEffect: &2Jumping'
+    slot: '29'
+    price: '35.99'
+    sanityReduce: '30'
+    effects:
+      previewColor: orange
+      type: JUMP
+      duration: '1'
+  '8':
+    displayName: Jack Daniels
+    color: '&6'
+    lore: '&fEffect: &2Jumping'
+    slot: '32'
+    price: '45.99'
+    sanityReduce: '35'
+    effects:
+      previewColor: orange
+      type: JUMP
+      duration: '1'
+  '9':
+    displayName: Glen McKenna
+    color: '&6'
+    lore: '&fEffect: &2Jumping'
+    slot: '33'
+    price: '65.99'
+    sanityReduce: '25'
+    effects:
+      previewColor: orange
+      type: JUMP
+      duration: '2'
+  '10':
+    displayName: Jim Beam
+    color: '&c'
+    lore: '&fEffect: &2Jumping'
+    slot: '34'
+    price: '35.99'
+    sanityReduce: '32'
+    effects:
+      previewColor: red
+      type: JUMP
+      duration: '1'
+  '11':
+    displayName: Drink Of Luck
+    color: '&2'
+    lore: '&fEffect: &3Get a awesome diamond!'
+    slot: '30'
+    price: '99.99'
+    sanityReduce: '10'
+    effects:
+      previewColor: purple
+      type: COMMAND
+      command: give {player} diamond 1

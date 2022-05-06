@@ -1,0 +1,14 @@
+legal:
+  accepted: true
+regions: null
+aliases: null
+speakers: null
+keyset:
+  key-version: 4
+  private: 0f01c3a8-e5b3-42d2-99ee-86afa6f140de
+  link-mode: true
+  server-ip: 193.238.87.5
+  server-cc: UA
+  public: 48dc16b5-786d-485a-a10e-08f2fc22aadc
+debug:
+  log-state-changes: false

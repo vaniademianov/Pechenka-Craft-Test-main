@@ -1,0 +1,13 @@
+# CraftHeads Configuration File
+# 
+# This enables the check for updates.
+# If this is set to true, you will get notifications about updates.
+# If don't want to check for updates, set this to false.
+update-check: true
+metrics: true
+economy: false
+default-price: 100
+player-own-head-price: 100
+player-other-head-price: 100
+reset-categories: false
+language: en

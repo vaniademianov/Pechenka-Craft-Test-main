@@ -1,0 +1,43 @@
+#############################################
+#                                           #
+#             JetsPrisonMines               #
+#            Created by Jet315              #
+#                                           #
+#############################################
+
+# -- Plugin Settings --
+
+#The prefix that is shown before the plugin
+plugins_prefix: "&eJets&bPrisonMines &7» "
+
+# Mine settings
+#Whether users can place blocks in the mines or not
+place_blocks_in_mines: false
+
+#If players log in inside a mine, would you like to teleport them to the mines spawn location?
+teleport_to_mine_spawn_login: true
+
+#Should players be able to mine blocks while the mine is resetting? Possible options are true/false
+allow_block_break_while_mine_reset: true
+
+#For this to be true, the above variable has to be true - Would you like to teleport them to the mine spawn if they try breaking a block
+#while the mine is resetting?
+teleport_on_mine_reset_block_break: false
+
+#For timed resets, would you like the mine to reset if there are 0 blocks left in the mine?
+reset_mine_if_no_blocks: true
+
+#Teleport players ontop of the mine, keeping there X and Z coordinates, instead of to the spawn point, this is automatically true for a mine if the mine does not have a spawn point
+teleport_players_to_mine_surface_on_reset: false
+
+# -- Optimisation options --
+
+#How many blocks should the plugin paste per tick when GRADUAL RESET is used
+amount_of_blocks_to_paste_per_tick: 100
+
+#When timed resets are use, should we reset the mine if it's not been mined at all?
+reset_mine_if_full: false #false = it wont reset, true = it will reset despite being full already
+
+#Whether when a mine resets, only missing blocks should be reset? This can help with performance. This option is only applied for percentage resets
+#Using the reset command will replace all blocks still
+only_replace_missing_blocks: false

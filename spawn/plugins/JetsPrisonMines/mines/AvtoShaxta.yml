@@ -1,0 +1,32 @@
+mine_name: AvtoShaxta
+blocks:
+- EMERALD_ORE:1:false:false
+- DIAMOND_ORE:3:false:false
+- LAPIS_ORE:10:false:false
+- REDSTONE_ORE:10:false:false
+- IRON_ORE:10:false:false
+- GOLD_ORE:14.5:false:false
+- COAL_ORE:20:false:false
+- STONE:31:false:false
+region:
+  world: world
+  zmin: -124
+  ymin: 71
+  xmin: -24
+  zmax: -113
+  ymax: 84
+  xmax: -16
+reset:
+  use_timer: true
+  timer: 600
+  use_percentage: true
+  percentage: 45
+  reset_type: GRADUAL
+  use_messages: true
+  reset_direction: TOPTOBOTTOM
+perm_to_mine: false
+blocks_mined: 0
+stats:
+  holograms: []
+effects:
+- LUCK:0

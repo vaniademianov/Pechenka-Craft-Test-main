@@ -1,0 +1,183 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 3
+npc:
+  '1':
+    metadata:
+      cached-skin-uuid: 9d59e4f7-59fa-46d1-96bb-f8b8e64ba772
+      cached-skin-uuid-name: pelmenator3000
+    name: Pelmenator3000
+    uuid: 7b3f0672-84eb-42f2-8997-36a495ecc790
+    traits:
+      spawned: false
+      type: PLAYER
+      gamemodetrait:
+        mode: CREATIVE
+      skintrait:
+        fetchDefaultSkin: true
+        signature: B4DAXB3F6uN6uVN4B9iUvoJfh3p8hexTLclC8PJqK9pP0nczYCOtgLO0q0RtinznxbJkeck/1pwFxrZ8duJUgfZlUKEe2jMs4M57SVPfmSyirQO5fR5gNMmrE8kYl0ULB7LbM0MQNbKrNd1wbMULrEMe6zFQ77M1lJNrro84MwWcztCl/QWu5RoCKoBOfyHv+0sA3PzpEpKLyO38zNGlvGkPkvIL/7ftZGZ7n0aK0s+PCncoe/7XMz/bbXZwhi6fi03qXMPbaQo4bVxmE+ZRiBQzfFb2z7SYP5GuJScAJ7IllDmt70L7z4JBIxbwzS1dqyzfPOzkEpAWRxfkCMKh2A1+JIDTHx+V8ftLE2vBEw1kKH9bAVea38eGBpt1j3YN6s3OAgH81Pm7bJ2EixfcTQl5eUQnNgQ7wQ8dOv/J8IdfX4fkKzSfMjvIUTT5FDzifLsEU83Vm1LDf/8pjyj2H5WDoFfUgi9ykTf6Vc8CAmQiBDH9LqX1/dmB7oIH8ZG0CWiERAdhyK58MBn3fiJqwpvi9RxtXbRzO3lbfA7LI3b0uyHIIffdNZzs+ja4WbNcLBEt2lBxqXFQL45tnPJuHJn1moW5qdgdD4yI6dEb4LVpkedZHgIxXu7JeicvyDEmKY7lA30KXk1a1Erkcd17w+5obbeK7pGFWrA2rv7lHv4=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MDg4ODM0MDM5MiwKICAicHJvZmlsZUlkIiA6ICI5ZDU5ZTRmNzU5ZmE0NmQxOTZiYmY4YjhlNjRiYTc3MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJQZWxtZW5hdG9yMzAwMCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82ZTM3YzgxZmI0NTYzNDU1MmE0ZDU5YTJjMjlkNGY4MWY5MGE1ZmEwNWUyMzY2ZWEyYTU2NmY0YmJjNmJiNGZjIgogICAgfQogIH0KfQ==
+        updateSkins: false
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      owner:
+        uuid: d3c51ce8-dff8-301c-b9fb-cda695af4c33
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: execute in multiworld:altworld-1 run tp @p ~ ~ ~
+            hand: RIGHT
+            player: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+          '1':
+            command: execute in multiworld:altworld-2 run tp @p ~ ~ ~
+            hand: RIGHT
+            player: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      location:
+        bodyYaw: 178.13593
+        world: altworld-1
+        x: '-273.1463'
+        y: '67.0'
+        z: '265.2362'
+        yaw: '-141.8641'
+        pitch: '0.0'
+    traitnames: type,inventory,location,owner,spawned,lookclose,skintrait,commandtrait,gamemodetrait,scoreboardtrait,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '3':
+    name: Аукціон
+    uuid: 2f736a2b-f130-44b7-8c66-29afd3971a50
+    traits:
+      location:
+        bodyYaw: -63.52767
+        world: world
+        x: '8.9271'
+        y: '81.0'
+        z: '-150.3'
+        yaw: '14.28'
+        pitch: '0.0'
+      type: VILLAGER
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        skinName: https://minesk.in/faee4f4608144dfd9435b9ef4c7e2240
+        updateSkins: false
+      gamemodetrait:
+        mode: CREATIVE
+      owner:
+        uuid: d3c51ce8-dff8-301c-b9fb-cda695af4c33
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: ah
+            hand: RIGHT
+            player: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+          '1':
+            command: ah
+            hand: RIGHT
+            player: true
+            op: true
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+    traitnames: type,inventory,location,owner,spawned,lookclose,skintrait,commandtrait,gamemodetrait,scoreboardtrait,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '2':
+    name: Скупщик
+    uuid: 723b76e3-fc6c-43c8-a83a-7d384f806595
+    traits:
+      location:
+        bodyYaw: 13.06102
+        world: world
+        x: '25.5165'
+        y: '81.0'
+        z: '-150.4986'
+        yaw: '24.3868'
+        pitch: '0.0'
+      type: VILLAGER
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        skinName: alp dark wizard of some sort
+      gamemodetrait:
+        mode: CREATIVE
+      owner:
+        uuid: d3c51ce8-dff8-301c-b9fb-cda695af4c33
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+    traitnames: type,inventory,location,owner,spawned,lookclose,skintrait,commandtrait,gamemodetrait,scoreboardtrait,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      cached-skin-uuid-name: b70f8b72-b00a-4984-ab00-5339888a5b53

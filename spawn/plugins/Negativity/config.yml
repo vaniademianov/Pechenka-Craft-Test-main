@@ -1,0 +1,66 @@
+# 
+#                                                                 #
+#                            Negativity                           #
+#                      AntiCheat by Elikill58                     #
+#                                                                 #
+#              If you have a problem or a suggestion,             #
+#                    You can contact me on:                       #
+#                  - Discord: @Elikill58#0743                     #
+#       - my Discord server: https://discord.gg/KHRVTX2           #
+#               - Mail: arpetzouille@gmail.com                    #
+#                   - SpigotMC: Elikill58                         #
+#                  - Minecraft.fr: Elikill                        #
+#                                                                 #
+Database: {}
+Permissions:
+  bypass: {}
+  showReport: {}
+  verif: {}
+  manageCheat: {}
+ban: {}
+Translation: {}
+accounts:
+  storage: {}
+verif:
+  storage: {}
+cheats:
+  autoclick: {}
+  special:
+    invalid_name: {}
+    server_crash: {}
+  airjump: {}
+  airplace: {}
+  antiknockback: {}
+  antipotion: {}
+  autosteal: {}
+  blink: {}
+  chat: {}
+  critical: {}
+  fastbow: {}
+  fasteat: {}
+  fastladder: {}
+  fastplace: {}
+  faststairs: {}
+  fly: {}
+  forcefield: {}
+  inventorymove: {}
+  jesus: {}
+  nofall: {}
+  nopitchlimit: {}
+  noslowdown: {}
+  noweb: {}
+  nuker: {}
+  phase: {}
+  pingspoof: {}
+  regen: {}
+  scaffold: {}
+  sneak: {}
+  speed: {}
+  spider: {}
+  step: {}
+  timer: {}
+  xray:
+    kick: true
+inventory: {}
+commands: {}
+region-bypass: {}
